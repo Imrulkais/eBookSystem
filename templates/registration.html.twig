@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Registration{% endblock %}
+{% block body %}
+    {% block content %}
+        <div class="container">
+            <div class="align-content-center" style="text-align: center">
+                <h1 class="h3 mb-3 font-weight-normal">Registration form</h1>
+            </div>
+            {{ form_start(form, {'action': path('registrationUser'), 'method': 'post', 'class': ''}) }}
+            {{ form_end(form) }}
+        </div>
+    {% endblock %}
+{% endblock %}

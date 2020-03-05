@@ -1,0 +1,9 @@
+index:
+    path: /
+    controller: App\Controller\TestingController::number
+testing_number:
+    path: /testing/number
+    controller: App\Controller\TestingController::number
+registrationUser:
+    path: /registration
+    controller: App\Controller\RegistrationController::registration
